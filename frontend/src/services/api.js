@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL - using proxy from package.json (points to localhost:5000)
-const API_BASE = import.meta.env.VITE_API_URL + '/api';
+const API_BASE = `${process.env.REACT_APP_API_URL}/api`;
 
 // =====================
 // AUTH SERVICES
