@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Base URL - using proxy from package.json (points to localhost:5000)
 const API_BASE = `${process.env.REACT_APP_API_URL}/api`;
-
+console.log("API BASE URL:", API_BASE);
 // =====================
 // AUTH SERVICES
 // =====================
